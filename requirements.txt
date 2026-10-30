@@ -1,0 +1,5 @@
+# Controller only (the apps and tests use just the Python standard library).
+# Ryu 4.34 needs Python 3.8/3.9 together with eventlet 0.30.2; see README.
+# Install with:  pip install "setuptools<58" wheel && pip install --no-build-isolation -r requirements.txt
+ryu==4.34
+eventlet==0.30.2
